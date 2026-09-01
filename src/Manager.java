@@ -47,7 +47,7 @@ public class Manager {
             return;
         }
         
-        int delId = Validation.getInt("ID: ", 1, 4);
+        int delId = Validation.getInt("ID: ", 1, Integer.MAX_VALUE);
         int index = -1;
         
         for(int i = 0; i < tasklist.size(); i++){
